@@ -2,9 +2,9 @@ import React from 'react'
 
 function Submit(){
     return(
-        <>
-            <button className='Submit'>Submit</button>
-        </>
+        <div className='submit-container'>
+            <button className='Submit ' >Submit</button>
+        </div>
     )
 }
 

@@ -7,13 +7,18 @@ import Dishes from './Dishes'
 import Menu from './Menu';
 import Footer_banner from './Footer_banner';
 import Details from './Details';
+import image1 from "./Image/main.jpg"
 
 function Home(){
     return(
         <div className='pp'>
             <Navbar />
             <Banner />
-            <Category />
+            <div className='category-container'>
+                <Category imgsrc="main.jpg" text="FOOD SOURCING"/>
+                <Category imgsrc='main.jpg' text="MENU DEVELOPMENT"/>
+                <Category imgsrc='main.jpg' text="RESTAURANT"/>
+            </div>
             <Ginger imgsrc="main.jpg"/>
             <Dishes />
             <Menu />

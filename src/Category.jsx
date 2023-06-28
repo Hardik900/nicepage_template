@@ -1,22 +1,15 @@
 import React from "react";
-import { Categor } from "./Data";
+// import { Categor } from "./Data";
 
-function Category(){
-    return(
-        <div>
-            <div className="category-container">
-            {
-                    Categor.map(function(Data,i){
-                        return(
-                            <div className="category">
-                                <img src={Data.imgsrc} alt="image"/>
-                                <p style={{color:"grey"}}>{Data.text}</p>
-                            </div>
-                        )
-                    })
-            }
-            </div> <br /><br /><br /><br />
-        </div>
+function Category(props) {
+    console.log(props)
+    return (
+        <>
+            <div className="category" style={{ backgroundImage: `url(${props.imgsrc})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', borderRadius: '30px' }}>
+                <p style={{ color: "white", fontSize:"22px" }}><b>{props.text}</b></p>
+            </div>
+            <br /><br /><br /><br />
+        </>
     )
 }
 
