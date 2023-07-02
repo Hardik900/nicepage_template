@@ -432,3 +432,77 @@ textarea{
   }
   
 }
+
+/* Timer css */
+.timer{
+  height: 90vh;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hour{
+  height: 200px;
+  width: 250px;
+  background-color: #99E54D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+/* counter css */
+
+.counter-container{
+  height: 90vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter{
+  background-color: #99E54D;
+  display: flex;
+  width: 30%;
+  height: 100px;
+}
+
+.incr{
+  width: 34%;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: none;
+}
+
+.data{
+  width: 33%;
+  height: 100px;
+  background-color: rgb(134, 145, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.decr{
+  width: 33%;
+  height: 100px;
+  background-color: rgb(218, 166, 83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: none;
+}
+
+/* Cards CSS */
+
+.mission-container{
+  background-color: aqua;
+}
